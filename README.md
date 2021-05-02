@@ -6,11 +6,11 @@ Docker image for the **fast-cli** tool. https://github.com/sindresorhus/fast-cli
 
 Run without any options. This will run the command specified in `CMD` in the `Dockerfile`.
 
-    docker run -it --rm --name fast-cli fast-cli:latest
+    docker run -it --rm --name fast-cli mschirrmeister/fast-cli:latest
 
 If you want to run with some specific options, provide the full command.
 
-    docker run -it --rm --name fast-cli fast-cli:latest fast --upload
+    docker run -it --rm --name fast-cli mschirrmeister/fast-cli:latest fast --upload
 
 ## Build image
 
